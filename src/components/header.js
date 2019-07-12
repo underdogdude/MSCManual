@@ -39,17 +39,40 @@ const Header = () => (
                     <ul className="navbar-nav">
                         <li className="nav-item active">
                             <Link
-                              to="/page-2/"
+                              to={`/MSC/`}
                               className="nav-link"
                             >
                                 MSC
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#"> MCC </a>
+                            <Link
+                              to="/MSC/"
+                              className="nav-link"
+                              state={{ company: "MCC" }}
+                            >
+                                MCC
+                            </Link>
                         </li>
+
                         <li className="nav-item">
-                            <a className="nav-link" href="#"> HIS </a>
+                            <Link
+                              to="/MSC/"
+                              className="nav-link"
+                              state={{ company: "HIS" }}
+                            >
+                                HIS
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                            <Link
+                              to="/MSC/"
+                              className="nav-link"
+                              state={{ company: "IR" }}
+                            >
+                                IR
+                            </Link>
                         </li>
                     </ul>
                 </div>
