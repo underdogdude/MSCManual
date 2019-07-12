@@ -1,0 +1,31 @@
+
+.footer__container { 
+    background: #222;
+    padding-top: 40px;
+}
+.footer__inner { 
+    padding: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer__inner h4{
+    color: #7d7d7d;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer__inner .link  { 
+    color: #7d7d7d;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.footer__inner .link__warpper { 
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+}
