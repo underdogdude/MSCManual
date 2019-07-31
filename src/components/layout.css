@@ -12,7 +12,12 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
-
+.banner  { 
+    background: url('../images/bg-banner.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .text__yellow { 
     color: #e2c21b;
 }
@@ -99,6 +104,7 @@ body {
 
 .tutorial__list{
     width: calc(33.33% - 8px);
+    min-width: 100px;
     background-color: #fff;
     display: inline-block;
     margin-bottom: 8px;
@@ -116,8 +122,25 @@ body {
     min-height: 70px;
     position: relative;
 }
+.tutorial__list:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,.16);
+}
+.tutorial__list:hover .iconwrapper i {
+    color: gold;
+}
+.tutorial__list:hover .text {
+    font-weight: bold;
+    color: #777;
+    
+}
+.tutorial__list .iconwrapper i {
+    font-size: 45px;
+    color: #051386;
+    transition: all .2s ease-out;
+}
 .tutorial__list .text { 
-    font-size: 12px;
+    font-size: 13px;
     color: #909090;
 }
 
@@ -145,3 +168,14 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+.panic-btn:hover { 
+    animation: blinker 1s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0.5;
+    }
+  }

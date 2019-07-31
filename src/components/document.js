@@ -13,8 +13,15 @@ const Document = ({ children }) => {
             style={{
                 margin: `0 auto`
             }}
-        >
-            <main>{children}</main>
+        >   
+            <div 
+                className="section__light"
+                style={{ paddingTop: "70px", paddingBottom: "70px" }}
+            >
+                <div className="container">
+                        <main>{children}</main>
+                </div>
+            </div>
             <Footer />
         </div>
     </>

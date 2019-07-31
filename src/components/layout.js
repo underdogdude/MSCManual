@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteLogo={data.site.siteMetadata.logo} />
+      {/* <Header siteLogo={data.site.siteMetadata.logo} /> */}
       <Banner />
       <div
         style={{

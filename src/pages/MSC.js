@@ -9,10 +9,15 @@ const MSC = ({data}) => {
     return (
         <Document>
             <SEO title="MSC" />
-            <h1>MSC</h1>
-            {
+            <div>
+
+                <iframe src="https://docs.google.com/document/d/e/2PACX-1vT8NdRf3Wg9nQ2f97lCfiqUu3cN_pJ_8gMMCEu27r0XsSffLI1DVNkt6MFcl0InYffFs3SAm5kR0oaY/pub?embedded=true" frameborder="0" scrolling="yes" seamless="seamless" style={{"display":"block", "width":"100%", "height":"100vh"}}></iframe>
+            </div>
+         
+            {/* {
                 edges.map(edge => { 
                     const {frontmatter} = edge.node
+                    console.log(frontmatter, ' front fuck');
                     return (
                         <div key={frontmatter.path}>
                             <Link
@@ -23,8 +28,8 @@ const MSC = ({data}) => {
                         </div>
                     )
                 })
-            }
-            <Link to="/">Go back to the homepage</Link>
+            } */}
+            {/* <Link to="/">Go back to the homepage</Link> */}
         </Document>
     )
 }

@@ -6,7 +6,6 @@ import Logo from "../images/logo.png"
 const Header = () => (
     <header
         style={{
-        background: `#00052d`
         }}
     >
         <div
@@ -47,7 +46,7 @@ const Header = () => (
                         </li>
                         <li className="nav-item">
                             <Link
-                              to="/MSC/"
+                              to="/MCC/"
                               className="nav-link"
                               state={{ company: "MCC" }}
                             >
@@ -57,21 +56,11 @@ const Header = () => (
 
                         <li className="nav-item">
                             <Link
-                              to="/MSC/"
+                              to="/HIS/"
                               className="nav-link"
                               state={{ company: "HIS" }}
                             >
                                 HIS
-                            </Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link
-                              to="/MSC/"
-                              className="nav-link"
-                              state={{ company: "IR" }}
-                            >
-                                IR
                             </Link>
                         </li>
                     </ul>

@@ -32,28 +32,44 @@ const IndexPage = () => (
 
                 <div className="tutorial__wrapper">
                     <div className="tutorial__list" >
+                    <Link
+                              to="/MSC/"
+                        >
                         <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
+                            <i className="far fa-newspaper"></i>
                         </div>
-                        <span className="text">This is a Text</span>
+                        <span className="text">Posts</span>
+                        </Link>
                     </div>
                     <div className="tutorial__list" >
+                        <Link
+                              to="/MSC/"
+                        >
                         <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
+                            <i className="far fa-address-card"></i>
                         </div>
-                        <span className="text">This is a Text</span>
+                        <span className="text">Banner</span>
+                        </Link>
                     </div>
                     <div className="tutorial__list" >
+                        <Link
+                              to="/MSC/"
+                            >
                         <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
+                            <i className="fas fa-users"></i>
                         </div>
-                        <span className="text">This is a Text</span>
+                        <span className="text">Careers</span>
+                        </Link>
                     </div>
                     <div className="tutorial__list" >
+                        <Link
+                              to="/MSC/"
+                            >
                         <div className="iconwrapper">
                             <i className="fas fa-arrow-alt-circle-right"></i>
                         </div>
-                        <span className="text">This is a Text</span>
+                        <span className="text">View All</span>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -70,10 +86,24 @@ const IndexPage = () => (
 
                 <div className="tutorial__wrapper">
                     <div className="tutorial__list" >
+                        <Link
+                              to="/MCC/"
+                            >
                         <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
+                            <i className="far fa-newspaper"></i>
                         </div>
-                        <span className="text">This is a Text</span>
+                        <span className="text">Posts</span>
+                        </Link>
+                    </div>
+                    <div className="tutorial__list" >
+                        <Link
+                              to="/MCC/"
+                            >
+                            <div className="iconwrapper">
+                                <i className="fas fa-arrow-alt-circle-right"></i>
+                            </div>
+                            <span className="text">View All</span>
+                        </Link>
                     </div>
                 </div>
 
@@ -89,54 +119,28 @@ const IndexPage = () => (
                     </div>
                 </div>
                 <div className="tutorial__wrapper">
-                    <div className="tutorial__list" >
-                        <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
+                    <div className="tutorial__wrapper">
+                        
+                        <div className="tutorial__list" >
+                        <Link
+                              to="/HIS/"
+                            >
+                            <div className="iconwrapper">
+                                <i className="far fa-newspaper"></i>
+                            </div>
+                            <span className="text">Posts</span>
+                        </Link>
                         </div>
-                        <span className="text">This is a Text</span>
-                    </div>
-                    <div className="tutorial__list" >
-                        <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
+                        <div className="tutorial__list" >
+                        <Link
+                              to="/HIS/"
+                            >
+                            <div className="iconwrapper">
+                                <i className="fas fa-arrow-alt-circle-right"></i>
+                            </div>
+                            <span className="text">View All</span>
+                            </Link>
                         </div>
-                        <span className="text">This is a Text</span>
-                    </div>
-                    <div className="tutorial__list" >
-                        <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
-                        </div>
-                        <span className="text">This is a Text</span>
-                    </div>
-                </div>
-            </div>
-            <div className="col-md-4">
-                <div className="tutorial__headerwrapper">
-                    <div className="tutorial__img">
-                        <img src={ImgPath} />
-                    </div>
-
-                    <div className="tutorial__text">
-                        Investor Relations (IR)
-                    </div>
-                </div>
-                <div className="tutorial__wrapper">
-                    <div className="tutorial__list" >
-                        <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
-                        </div>
-                        <span className="text">This is a Text</span>
-                    </div>
-                    <div className="tutorial__list" >
-                        <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
-                        </div>
-                        <span className="text">This is a Text</span>
-                    </div>
-                    <div className="tutorial__list" >
-                        <div className="iconwrapper">
-                            <i className="fas fa-arrow-alt-circle-right"></i>
-                        </div>
-                        <span className="text">This is a Text</span>
                     </div>
                 </div>
             </div>

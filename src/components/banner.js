@@ -1,12 +1,15 @@
 import React from "react";
 import Astronaut from "../images/landing-img.png";
+import Header from "./header"
 
 const Banner = () => {
     return ( 
+        <div className="banner">
+        <Header /> 
         <div 
-          className="d-flex justify-content-between"
+          className="d-flex justify-content-between "
           style={{
-            backgroundImage: "linear-gradient(to top, #00174a 0%, #00052d 100%)",
+            // backgroundImage: "linear-gradient(to top, #00174a 0%, #00052d 100%)",
             height: "450px"
         }}>
             <div 
@@ -140,6 +143,7 @@ const Banner = () => {
                 </div>
             </div>
 
+        </div>
         </div>
     )
 }
